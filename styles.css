@@ -70,6 +70,12 @@ body{
     font-size:  40px;
 }
 
+.top .titles{
+    display: flex;
+    flex-direction: column;
+    row-gap: -2000rem;
+}
+
 .rotate {
     width: 700px;
     height: 700px;
@@ -87,13 +93,27 @@ body{
 
 .programming h1, .education h1, .past-experience h1{
     width: 300px;
+    color: #fff;
 }
 
 .programming table, .education table, .past-experience table{
     width: 100%;
 }
 
+.programming table th, tr{
+    width: 49%;
+}
+
+.past-experience table th, tr{
+    width: 33%;
+}
+
+.education table th, tr{
+    width: 33%;
+}
+
 .linkedin{
+    display: flex;
     justify-content: center;
     text-align: center;
 }
